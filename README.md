@@ -8,3 +8,5 @@ La forme des données doit être identique pour les deux modeles, à savoir un t
 
 
 Les deux modèles ont été entrainés sur un jeu d'environ 17 millions d'échantillons. Le score moyen du modèle direction est de 68% (accuracy) et celui de la force de 0.8 (erreur moyenne absolue).
+
+le csv erreur comprend les scores des modèles sur les stations en france pour 2018.
