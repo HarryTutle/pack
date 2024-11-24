@@ -3,7 +3,7 @@ prevision à une heure
 
 La forme des données doit être identique pour les deux modeles, à savoir un tenseur de trois dimensions au format float64 pour ne pas perdre de l'info, et normalisées en soustrayant la moyenne et en divisant par l'ecart-type:
 - Une pour les échantillons
-- Une autre pour les pas de temps, soit 100 pas (pour dix heures).
+- Une autre pour les pas de temps, soit 100 pas (pour dix heures, donc un pas toutes les six minutes).
 - Une pour les variables, soit 9 (latitude, longitude, altitude, direction, force, humidite, température, pression et le mois).
 
 
