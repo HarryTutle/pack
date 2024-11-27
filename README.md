@@ -5,7 +5,8 @@ La forme des données doit être identique pour les deux modèles, à savoir un 
 - Une pour les échantillons
 - Une autre pour les pas de temps, soit 100 pas (pour dix heures, donc un pas toutes les six minutes).
 - Une pour les variables, soit 9 (latitude, longitude, altitude, direction, force, humidite, température, pression et le mois de la mesure pour induire une saisonnalité).
-donc un tenseur (nombre_échantillons, 100, 9)
+donc un tenseur (nombre_échantillons, 100, 9).
+- les latitudes et les longitudes ont été multipliées par 100 pour passer ces variables au format int et prendre moins de memoire au stockage et à l'entrainement.
 
 Les deux modèles ont été entrainés sur un jeu d'environ 17 millions d'échantillons. Le score moyen du modèle direction est de 68% (accuracy) et celui de la force de 0.8 (erreur moyenne absolue). Le résultat pour la direction indique la classe qui a eu la meilleure probabilité d'occurence sur huit classes (NE, E, SE, S, SW, W, NW, N), chaque classe couvre donc 45 degrés. Concernant la force du vent, elle est en mètres/seconde comme Meteonet.
 
