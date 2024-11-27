@@ -13,4 +13,4 @@ Les deux modèles ont été entrainés sur un jeu d'environ 17 millions d'échan
 Meteonet: voilà le lien explicatif des variables de ce jeu open source : https://meteofrance.github.io/meteonet/french/donnees/stations-observation/
 et ici le lien pour telecharger les csv: https://meteonet.umr-cnrm.fr/dataset/data/
 
-le csv erreur comprend les scores des modèles sur les stations en france pour 2018.
+le csv erreur comprend les scores des modèles sur les stations en france pour 2018. Il y a une erreur sur l'altitude et le numéro des stations qui doivent être multipliés par 100.
