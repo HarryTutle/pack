@@ -14,3 +14,11 @@ Meteonet: voilà le lien explicatif des variables de ce jeu open source : https:
 et ici le lien pour telecharger les csv: https://meteonet.umr-cnrm.fr/dataset/data/
 
 le csv erreur comprend les scores des modèles sur les stations en france pour 2018. Il y a une erreur sur l'altitude et le numéro des stations qui doivent être multipliés par 100.
+
+le script pretraitement_total indique comment bien formater les données à partit d'un csv de Meteonet pour les modèles.
+
+resultat rapide sur station test:
+
+![Figure 2024-11-27 174201](https://github.com/user-attachments/assets/605802bb-fe3b-46ef-bcd1-0cd612bf42e6)
+
+
